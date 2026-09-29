@@ -83,7 +83,7 @@ This document provides details on testing various services after running the `do
   [{"id":1,"name":"Laptop","price":999},{"id":2,"name":"Phone","price":699}]%
 ```
 
-/Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.40.26 PM.png
+![alt text](<Screenshot 2026-09-29 at 5.40.26 PM.png>)
 
 - **Orders:**
 
@@ -93,7 +93,7 @@ This document provides details on testing various services after running the `do
   []%
   ```
 
-  /Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.41.00 PM.png
+  ![alt text](<Screenshot 2026-09-29 at 5.41.00 PM.png>)
 
 ---
 
