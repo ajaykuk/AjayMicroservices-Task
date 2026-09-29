@@ -73,36 +73,44 @@ This document provides details on testing various services after running the `do
     [{"id":1,"name":"John Doe"},{"id":2,"name":"Jane Smith"}]%
     ```
 
-  - **Products:**
+![alt text](<Screenshot 2026-09-29 at 5.39.54 PM.png>)
 
-    ````
-    curl http://localhost:3003/api/products
-    curl http://localhost:3003/api/products
-    [{"id":1,"name":"Laptop","price":999},{"id":2,"name":"Phone","price":699}]%
+- **Products:**
 
-       ```
-    ````
+  ````
+  curl http://localhost:3003/api/products
+  curl http://localhost:3003/api/products
+  [{"id":1,"name":"Laptop","price":999},{"id":2,"name":"Phone","price":699}]%
+
+  /Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.40.26 PM.png
+
+     ```
+  ````
 
 ajaymalik@Ajays-MacBook-Pro Microservices %
 
 - **Orders:**
 
-  ````
+  ```
   curl http://localhost:3003/api/orders
   curl http://localhost:3003/api/orders
   []%
+  ```
 
-     ```
-  ````
+/Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.41.00 PM.png
+```
+
+````
 
 ---
 
 ## Instructions
 
 1. Start all services using the `docker-compose` file:
-   ```
-   docker-compose up -d --build
-   ```
+ ```
+ docker-compose up -d --build
+ ```
 2. Once the services are running, use the above endpoints to verify the functionality.
 
 Happy testing!
+````
