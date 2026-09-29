@@ -95,22 +95,27 @@ ajaymalik@Ajays-MacBook-Pro Microservices %
   curl http://localhost:3003/api/orders
   curl http://localhost:3003/api/orders
   []%
+  /Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.41.00 PM.png
   ```
 
-/Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.41.00 PM.png
 ```
 
-````
+```
 
 ---
 
 ## Instructions
 
 1. Start all services using the `docker-compose` file:
- ```
- docker-compose up -d --build
- ```
+
+```
+docker-compose up -d --build
+```
+
 2. Once the services are running, use the above endpoints to verify the functionality.
 
 Happy testing!
-````
+
+```
+
+```
