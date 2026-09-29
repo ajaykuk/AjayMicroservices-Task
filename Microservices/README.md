@@ -83,8 +83,6 @@ This document provides details on testing various services after running the `do
 
   /Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.40.26 PM.png
 
-ajaymalik@Ajays-MacBook-Pro Microservices %
-
 - **Orders:**
 
   ```
