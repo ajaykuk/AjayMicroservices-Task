@@ -77,11 +77,13 @@ This document provides details on testing various services after running the `do
 
 - **Products:**
 
+```
   curl http://localhost:3003/api/products
   curl http://localhost:3003/api/products
   [{"id":1,"name":"Laptop","price":999},{"id":2,"name":"Phone","price":699}]%
+```
 
-  /Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.40.26 PM.png
+/Users/ajaymalik/Desktop/Screenshot 2026-09-29 at 5.40.26 PM.png
 
 - **Orders:**
 
