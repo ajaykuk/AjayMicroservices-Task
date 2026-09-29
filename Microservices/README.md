@@ -109,7 +109,13 @@ docker-compose up -d --build
 
 2. Once the services are running, use the above endpoints to verify the functionality.
 
-Happy testing!
+![alt text](<docker compose ps at 6.04.38 PM-1.png>)
+
+![alt text](<docker compose logs order-service 6.04.46 PM.png>)
+
+![alt text](<docker compose logs user service 6.05.03 PM.png>)
+
+![alt text](<docker comose logs product-service 6.05.28 PM.png>)
 
 ```
 
