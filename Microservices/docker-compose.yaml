@@ -12,21 +12,18 @@ services:
     build: ./order-service
     ports:
       - "3002:3002"
-    environment:
-      - NODE_ENV=production
+    
    
   user-service:
     build: ./user-service
     ports:
       - "3000:3000"
-    environment:
-      - NODE_ENV=production
+    
   
 
   product-service:
     build: ./product-service
     ports:
       - "3001:3001"
-    environment:
-      - NODE_ENV=production'
+   
 
