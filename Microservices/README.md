@@ -38,6 +38,8 @@ This document provides details on testing various services after running the `do
 
     [{"id":1,"name":"Laptop","price":999},{"id":2,"name":"Phone","price":699}]%
 
+    ![alt text](<Screenshot 2026-09-29 at 5.37.45 PM.png>)
+
 ---
 
 ### **Order Service**
