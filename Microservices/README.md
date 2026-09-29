@@ -47,11 +47,15 @@ This document provides details on testing various services after running the `do
 - **Base URL:** `http://localhost:3002`
 - **Endpoints:**
   - **List Orders:**
+
     ```
     curl http://localhost:3002/orders
     ```
+
     Or open in your browser: [http://localhost:3002/orders](http://localhost:3002/orders)
     EMPTY RESPONSE FOR ..3002/orders--> []%
+
+    ![alt text](<Screenshot 2026-09-29 at 5.39.07 PM.png>)
 
 ---
 
