@@ -105,6 +105,8 @@ This document provides details on testing various services after running the `do
 docker-compose up -d --build
 ```
 
+![alt text](<Screenshot 2026-09-29 at 4.50.12 PM.png>)
+
 2. Once the services are running, use the above endpoints to verify the functionality.
 
 Happy testing!
