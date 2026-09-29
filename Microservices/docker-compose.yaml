@@ -5,25 +5,33 @@ services:
     build: ./gateway-service
     ports:
       - "3003:3003"
-    environment:
-      - NODE_ENV=production
+    networks:
+      - backend-network
+   
    
   order-service:
     build: ./order-service
     ports:
       - "3002:3002"
+    networks:
+      - backend-network
     
    
   user-service:
     build: ./user-service
     ports:
       - "3000:3000"
-    
+    networks:
+      - backend-network
   
 
   product-service:
     build: ./product-service
     ports:
       - "3001:3001"
-   
+    networks:
+      - backend-network
 
+networks:
+  backend-network:
+    driver: bridge

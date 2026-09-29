@@ -20,6 +20,8 @@ This document provides details on testing various services after running the `do
 
     [{"id":1,"name":"John Doe"},{"id":2,"name":"Jane Smith"}]%
 
+![alt text](<Screenshot 2026-09-29 at 5.36.00 PM.png>)
+
 ---
 
 ### **Product Service**
@@ -93,7 +95,7 @@ ajaymalik@Ajays-MacBook-Pro Microservices %
 
 1. Start all services using the `docker-compose` file:
    ```
-   docker-compose up
+   docker-compose up -d --build
    ```
 2. Once the services are running, use the above endpoints to verify the functionality.
 
