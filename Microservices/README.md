@@ -55,9 +55,7 @@ This document provides details on testing various services after running the `do
     Or open in your browser: [http://localhost:3002/orders](http://localhost:3002/orders)
     EMPTY RESPONSE FOR ..3002/orders--> []%
 
-    ![alt text](<Screenshot 2026-09-29 at 5.39.07 PM.png>)
-
----
+  ![alt text](<ORDER at 2.48.37 PM-1.png>)
 
 ### **Gateway Service**
 
@@ -90,10 +88,9 @@ This document provides details on testing various services after running the `do
   ```
   curl http://localhost:3003/api/orders
   curl http://localhost:3003/api/orders
-  []%
   ```
 
-  ![alt text](<Screenshot 2026-09-29 at 5.41.00 PM.png>)
+  ![alt text](<Order api 2.59.36 PM.png>)
 
 ---
 
