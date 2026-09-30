@@ -117,6 +117,15 @@ docker-compose up -d --build
 
 ![alt text](<docker comose logs product-service 6.05.28 PM.png>)
 
+Run docker compose exec gateway-service sh and then run
+wget -qO- http://product-service:3001/products
+wget -qO- http://user-service:3000/users
+wget -qO- http://order-service:3002/orders
+
+![alt text](<Product Service 10.29.31 AM-1.png>)
+![alt text](<user service 10.29.03 AM.png>)
+![alt text](<Order Service 10.30.11 AM.png>)
+
 ```
 
 ```
